@@ -1,29 +1,29 @@
 ﻿html{
-text-align:center;
+text-align:center auto;
 }
 body {
   font-family: 'Lato', Verdana;
-  font-size: 100%;
+  font-size: 100% auto;
   background: #fff;
 }
 .wrap
 {
   margin: 0 auto;
-  width: 70%;  /* отступы относительно окна браузера */
+  width: 70% auto;  /* отступы относительно окна браузера */
 }
 .header{
-  padding: 1.3em 0em; /* поля вокруг текста */
+  padding: 1.3em 0em auto; /* поля вокруг текста */
 }
 .logo{
-  float: left; /* обтекание логотипа */
-margin-left:190px;
+  float: left auto; /* обтекание логотипа */
+margin-left:190px auto;
 }
 .logo a {
   display: block; /* переопределение в блочный  */
 }
 .nav {
   float: right;   /* обтекание логотипа */
-  margin-top: 0.82em;
+  margin-top: 0.82em auto;
 }
 .nav > ul > li {
   display:inline-block;  /* переопределение в строчно-блочный  */
@@ -50,26 +50,26 @@ margin-left:190px;
 }
 body{
 background:  url('fon.png') no-repeat;
-background-size: 100% 100%;
+background-size: 100% 100% auto;
 }
 .ramka{
 background: #AFEEEE; /* Цвет фона */
     color: black; /* Цвет текста */
-    padding: 10px; /* Поля вокруг текста */
-    border-radius: 12px; /* Уголки */
-    width:50%;
-margin-top: 20%;
+    padding: 10px auto; /* Поля вокруг текста */
+    border-radius: 12px auto; /* Уголки */
+    width:50% auto;
+margin-top: 20% auto;
 height:100% auto;
 opacity: 0.9;
 }
 .sell{
-margin:10%;
+margin:10% auto;
 
 scroll="no";
 }
 * {box-sizing: border-box;}
 .product-item {
-  width: 300px;
+  width: 300px auto;
   text-align: center;
   margin: 0 auto;
   border-bottom: 2px solid #F5F5F5;
@@ -80,14 +80,14 @@ scroll="no";
 .product-item:hover {border-bottom: 2px solid #fc5a5a;}
 .product-item img {
   display: block;
-  width: 100%;
+  width: 100% auto;
 }
 .product-list {
   background: #fafafa;
-  padding: 15px 0;
+  padding: 15px auto 0;
 }
 .product-list h3 {
-  font-size: 18px;
+  font-size: 18px auto;
   font-weight: 400;
   color: #444444;
   margin: 0 0 10px 0;
@@ -101,12 +101,12 @@ scroll="no";
 .button {
   text-decoration: none;
   display: inline-block;
-  padding: 0 12px;
+  padding: 0 12px auto;
   background: #cccccc;
   color: white;
   text-transform: uppercase;
-  font-size: 12px;
-  line-height: 28px;
+  font-size: 12px auto;
+  line-height: 28px auto;
   transition: .3s ease-in;
 }
 .product-item:hover .button {background: #fc5a5a;}
