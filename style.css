@@ -60,7 +60,7 @@ background: #AFEEEE; /* Цвет фона */
     width:50% auto;
 margin-top: 20% auto;
 height:100% auto;
-opacity: 0.9;
+opacity: 0.9 auto;
 }
 .sell{
 margin:10% auto;
@@ -88,7 +88,7 @@ scroll="no";
 }
 .product-list h3 {
   font-size: 18px auto;
-  font-weight: 400;
+  font-weight: 400 auto;
   color: #444444;
   margin: 0 0 10px 0;
 }
